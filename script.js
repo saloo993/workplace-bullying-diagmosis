@@ -99,6 +99,11 @@ function displayResult() {
         <p>1개월 내 경험 횟수: ${results[0]}회 (4회 이상이면 Harassment 피해자일 수 있습니다)</p>
         <p>3개월 내 경험 횟수: ${results[1] + results[2]}회 (12회 이상이면 Bullying 피해자일 수 있습니다)</p>
         <p>만약 괴롭힘이 의심된다면, 전문가와 상담하는 것이 좋습니다.</p>
+        <h3>추가 설명</h3>
+        <p><strong>Harassment</strong>는 신체적이거나 가시적인 방식으로 상대를 괴롭히거나 위협하는 것으로 전통적으로도 괴롭힘으로 인식되던 행위를 말합니다.<br>
+        예) 폭력, 폭언, 직장 내 성희롱</p>
+        <p><strong>Bullying</strong>은 심리적이고 교묘한 방식으로, 지속반복적으로 상대를 괴롭히는 것으로 인권이 향상되면서 새롭게 인식되는 행위를 이릅니다.<br>
+        예) 반복적인 비하, 불필요한 업무지시 등</p>
     `;
     content.innerHTML = html;
     const nextBtn = document.getElementById('nextBtn');
